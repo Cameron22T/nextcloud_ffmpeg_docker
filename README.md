@@ -1,6 +1,6 @@
 # Nextcloud Docker Setup with FFmpeg
 
-This repository contains a Docker setup for Nextcloud with FFmpeg installed. This setup ensures FFmpeg is installed every time the Nextcloud container starts.
+This repository contains a Docker setup for Nextcloud with FFmpeg installed. This setup ensures FFmpeg is installed every time the Nextcloud container starts. This will allow Memories to show thumbnails for most video and picture formats.
 
 ## Contents
 
@@ -19,7 +19,7 @@ This repository contains a Docker setup for Nextcloud with FFmpeg installed. Thi
    git clone https://github.com/Cameron22T/nextcloud_ffmpeg_docker
    cd nextcloud_ffmpeg_docker
 
-2. Modify docker-compose for nextcloud, mariadb database setup as normal.
+2. Modify docker-compose for your set up, make sure to set up your own credentials.
 3. Start nextcloud container:
    ```
    docker-compose up -d
